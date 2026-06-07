@@ -1,0 +1,18 @@
+{
+  "date": "2026-05-21",
+  "best_wer": 72.3,
+  "best_ci": [
+    63.8,
+    79.8
+  ],
+  "baseline_wer": 86.8,
+  "baseline_ci": [
+    78.4,
+    93.4
+  ],
+  "improvement_pts": 14.5,
+  "wilcoxon_p": 0.00048828125,
+  "ttest_p": 2.586836407454815e-08,
+  "sota_wer": 74.1,
+  "note": "per-dialect averaging matching headline 72.2%"
+}

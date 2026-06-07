@@ -1,0 +1,89 @@
+{
+  "note": "per-dialect WER from best result (5-gram + normalization, 72.3% mean)",
+  "per_dialect": [
+    {
+      "dialect": "comilla",
+      "train_samples": 254,
+      "test_samples": 32,
+      "wer": 43.4
+    },
+    {
+      "dialect": "tangail",
+      "train_samples": 1017,
+      "test_samples": 127,
+      "wer": 45.3
+    },
+    {
+      "dialect": "habiganj",
+      "train_samples": 936,
+      "test_samples": 117,
+      "wer": 65.0
+    },
+    {
+      "dialect": "narail",
+      "train_samples": 1487,
+      "test_samples": 186,
+      "wer": 70.3
+    },
+    {
+      "dialect": "narsingdi",
+      "train_samples": 1099,
+      "test_samples": 137,
+      "wer": 71.5
+    },
+    {
+      "dialect": "barishal",
+      "train_samples": 804,
+      "test_samples": 101,
+      "wer": 74.4
+    },
+    {
+      "dialect": "sylhet",
+      "train_samples": 6100,
+      "test_samples": 762,
+      "wer": 74.9
+    },
+    {
+      "dialect": "rangpur",
+      "train_samples": 1038,
+      "test_samples": 130,
+      "wer": 80.8
+    },
+    {
+      "dialect": "noakhali",
+      "train_samples": 222,
+      "test_samples": 28,
+      "wer": 82.2
+    },
+    {
+      "dialect": "sandwip",
+      "train_samples": 1048,
+      "test_samples": 131,
+      "wer": 85.0
+    },
+    {
+      "dialect": "kishoreganj",
+      "train_samples": 1639,
+      "test_samples": 205,
+      "wer": 87.3
+    },
+    {
+      "dialect": "chittagong",
+      "train_samples": 1405,
+      "test_samples": 176,
+      "wer": 87.4
+    }
+  ],
+  "pearson": {
+    "r": 0.169,
+    "p": 0.5992
+  },
+  "spearman": {
+    "r": 0.385,
+    "p": 0.217
+  },
+  "pearson_log": {
+    "r": 0.299,
+    "p": 0.3452
+  }
+}

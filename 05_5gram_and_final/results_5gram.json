@@ -1,0 +1,142 @@
+{
+  "method": "Fine-tuned IndicWav2Vec + Global 5-gram KenLM with text normalization (final system)",
+  "model": "ai4bharat/indicwav2vec_v1_bengali (fine-tuned)",
+  "language_model": {
+    "type": "KenLM 5-gram (modified Kneser-Ney, --discount_fallback)",
+    "training_corpus": "in-domain RegSpeech12 transcripts, 95,845 lines",
+    "alpha": 0.5,
+    "beta": 1.5,
+    "beam_width": 200
+  },
+  "test_set_samples": 2132,
+  "num_dialects": 12,
+  "headline_results": {
+    "standard_normalization": {
+      "mean_wer": 72.3,
+      "mean_cer": 41.8,
+      "std_wer": 14.2,
+      "std_cer": 13.4,
+      "normalization": "NFC + remove punctuation + collapse whitespace",
+      "note": "Headline result of the paper"
+    },
+    "bnunicode_normalization": {
+      "mean_wer": 72.2,
+      "mean_cer": 41.3,
+      "std_wer": 14.2,
+      "std_cer": 13.4,
+      "normalization": "BnUnicodeNormalizer (matching BanglaTalk/BRDialect)",
+      "note": "Matched-normalization comparison; same trained system, different normalizer"
+    }
+  },
+  "bootstrap_95_ci": {
+    "wer": [
+      63.3,
+      79.8
+    ],
+    "cer": [
+      33.9,
+      49.0
+    ]
+  },
+  "per_dialect_standard_norm": {
+    "barishal": {
+      "wer": 74.4,
+      "cer": 44.4
+    },
+    "chittagong": {
+      "wer": 87.4,
+      "cer": 53.6
+    },
+    "comilla": {
+      "wer": 43.4,
+      "cer": 16.9
+    },
+    "habiganj": {
+      "wer": 65.0,
+      "cer": 31.6
+    },
+    "kishoreganj": {
+      "wer": 87.3,
+      "cer": 59.2
+    },
+    "narail": {
+      "wer": 70.3,
+      "cer": 38.5
+    },
+    "narsingdi": {
+      "wer": 71.5,
+      "cer": 38.5
+    },
+    "noakhali": {
+      "wer": 82.2,
+      "cer": 54.4
+    },
+    "rangpur": {
+      "wer": 80.8,
+      "cer": 48.6
+    },
+    "sandwip": {
+      "wer": 85.0,
+      "cer": 54.6
+    },
+    "sylhet": {
+      "wer": 74.9,
+      "cer": 43.7
+    },
+    "tangail": {
+      "wer": 45.3,
+      "cer": 17.7
+    }
+  },
+  "per_dialect_bnunicode": {
+    "barishal": {
+      "wer": 74.4,
+      "cer": 43.8
+    },
+    "chittagong": {
+      "wer": 87.3,
+      "cer": 52.8
+    },
+    "comilla": {
+      "wer": 43.1,
+      "cer": 16.4
+    },
+    "habiganj": {
+      "wer": 64.9,
+      "cer": 31.1
+    },
+    "kishoreganj": {
+      "wer": 87.3,
+      "cer": 58.8
+    },
+    "narail": {
+      "wer": 70.3,
+      "cer": 38.0
+    },
+    "narsingdi": {
+      "wer": 71.5,
+      "cer": 38.0
+    },
+    "noakhali": {
+      "wer": 82.0,
+      "cer": 53.9
+    },
+    "rangpur": {
+      "wer": 80.8,
+      "cer": 48.2
+    },
+    "sandwip": {
+      "wer": 85.0,
+      "cer": 54.2
+    },
+    "sylhet": {
+      "wer": 74.9,
+      "cer": 43.2
+    },
+    "tangail": {
+      "wer": 45.2,
+      "cer": 17.3
+    }
+  },
+  "note": "Both results use the SAME fine-tuned model and SAME 5-gram KenLM; only the text normalizer differs. Mean WER and CER values are averages of per-dialect values across all 12 dialects. STD values use population standard deviation (ddof=0)."
+}

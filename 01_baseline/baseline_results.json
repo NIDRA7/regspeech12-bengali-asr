@@ -1,0 +1,58 @@
+{
+  "method": "Zero-shot baseline IndicWav2Vec, greedy CTC decoding",
+  "model": "ai4bharat/indicwav2vec_v1_bengali",
+  "test_set_samples": 2132,
+  "num_dialects": 12,
+  "mean_wer": 89.0,
+  "per_dialect": {
+    "tangail": {
+      "n": 127,
+      "wer": 64.4
+    },
+    "comilla": {
+      "n": 32,
+      "wer": 65.0
+    },
+    "narail": {
+      "n": 186,
+      "wer": 88.8
+    },
+    "habiganj": {
+      "n": 117,
+      "wer": 89.3
+    },
+    "barishal": {
+      "n": 101,
+      "wer": 91.7
+    },
+    "narsingdi": {
+      "n": 137,
+      "wer": 91.7
+    },
+    "sylhet": {
+      "n": 762,
+      "wer": 92.5
+    },
+    "rangpur": {
+      "n": 130,
+      "wer": 95.1
+    },
+    "kishoreganj": {
+      "n": 205,
+      "wer": 96.3
+    },
+    "chittagong": {
+      "n": 176,
+      "wer": 97.7
+    },
+    "sandwip": {
+      "n": 131,
+      "wer": 97.7
+    },
+    "noakhali": {
+      "n": 28,
+      "wer": 98.0
+    }
+  },
+  "note": "Mean WER is the average of per-dialect WERs across all 12 dialects."
+}

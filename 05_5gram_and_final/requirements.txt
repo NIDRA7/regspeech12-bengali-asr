@@ -1,0 +1,7 @@
+numpy<2
+jiwer>=3.0
+pyctcdecode
+pandas>=2.0
+openpyxl
+transformers>=4.40
+# Also: pip install https://github.com/kpu/kenlm/archive/master.zip

@@ -1,0 +1,9 @@
+# Core dependencies for verifying the reported numbers from saved predictions.
+# Individual stage folders may have additional requirements.
+
+numpy<2
+pandas>=2.0
+jiwer>=3.0
+scipy>=1.10
+bnunicodenormalizer>=0.2
+openpyxl>=3.1

@@ -1,0 +1,7 @@
+group,dialects,mean_wer,mean_cer
+Rarhi / Central,"tangail, narail",57.8,28.1
+Bangali / East-Central,"comilla, narsingdi, barishal, habiganj",63.6,32.8
+Sylheti,sylhet,74.9,43.7
+Kamta / Rangpuri,rangpur,80.8,48.6
+Chittagonian,"chittagong, sandwip, noakhali",84.9,54.2
+"Other (kishoreganj, classification uncertain)",kishoreganj,87.3,59.2

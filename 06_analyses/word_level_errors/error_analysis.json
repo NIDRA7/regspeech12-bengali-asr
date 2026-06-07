@@ -1,0 +1,172 @@
+{
+  "word_level": {
+    "per_dialect": [
+      {
+        "dialect": "barishal",
+        "N": 101,
+        "sub_pct": 45.0,
+        "ins_pct": 2.3,
+        "del_pct": 27.0,
+        "wer": 74.4,
+        "substitutions": 2092,
+        "insertions": 109,
+        "deletions": 1253
+      },
+      {
+        "dialect": "chittagong",
+        "N": 176,
+        "sub_pct": 50.3,
+        "ins_pct": 0.9,
+        "del_pct": 36.2,
+        "wer": 87.4,
+        "substitutions": 3209,
+        "insertions": 60,
+        "deletions": 2308
+      },
+      {
+        "dialect": "comilla",
+        "N": 32,
+        "sub_pct": 32.6,
+        "ins_pct": 3.0,
+        "del_pct": 7.9,
+        "wer": 43.4,
+        "substitutions": 472,
+        "insertions": 43,
+        "deletions": 114
+      },
+      {
+        "dialect": "habiganj",
+        "N": 117,
+        "sub_pct": 43.5,
+        "ins_pct": 7.1,
+        "del_pct": 14.5,
+        "wer": 65.0,
+        "substitutions": 1806,
+        "insertions": 294,
+        "deletions": 601
+      },
+      {
+        "dialect": "kishoreganj",
+        "N": 205,
+        "sub_pct": 43.9,
+        "ins_pct": 1.1,
+        "del_pct": 42.2,
+        "wer": 87.3,
+        "substitutions": 3078,
+        "insertions": 80,
+        "deletions": 2960
+      },
+      {
+        "dialect": "narail",
+        "N": 186,
+        "sub_pct": 45.5,
+        "ins_pct": 2.8,
+        "del_pct": 22.1,
+        "wer": 70.3,
+        "substitutions": 3238,
+        "insertions": 196,
+        "deletions": 1577
+      },
+      {
+        "dialect": "narsingdi",
+        "N": 137,
+        "sub_pct": 43.7,
+        "ins_pct": 1.5,
+        "del_pct": 26.3,
+        "wer": 71.5,
+        "substitutions": 2429,
+        "insertions": 84,
+        "deletions": 1461
+      },
+      {
+        "dialect": "noakhali",
+        "N": 28,
+        "sub_pct": 42.2,
+        "ins_pct": 1.3,
+        "del_pct": 38.7,
+        "wer": 82.2,
+        "substitutions": 296,
+        "insertions": 9,
+        "deletions": 271
+      },
+      {
+        "dialect": "rangpur",
+        "N": 130,
+        "sub_pct": 47.7,
+        "ins_pct": 1.4,
+        "del_pct": 31.8,
+        "wer": 80.8,
+        "substitutions": 2121,
+        "insertions": 62,
+        "deletions": 1415
+      },
+      {
+        "dialect": "sandwip",
+        "N": 131,
+        "sub_pct": 45.0,
+        "ins_pct": 0.8,
+        "del_pct": 39.2,
+        "wer": 85.0,
+        "substitutions": 2160,
+        "insertions": 39,
+        "deletions": 1879
+      },
+      {
+        "dialect": "sylhet",
+        "N": 762,
+        "sub_pct": 48.7,
+        "ins_pct": 8.3,
+        "del_pct": 17.9,
+        "wer": 74.9,
+        "substitutions": 13516,
+        "insertions": 2316,
+        "deletions": 4970
+      },
+      {
+        "dialect": "tangail",
+        "N": 127,
+        "sub_pct": 32.0,
+        "ins_pct": 3.0,
+        "del_pct": 10.2,
+        "wer": 45.3,
+        "substitutions": 1515,
+        "insertions": 144,
+        "deletions": 482
+      }
+    ],
+    "overall_sub_pct": 61.3,
+    "overall_ins_pct": 5.9,
+    "overall_del_pct": 32.9,
+    "corr_del_wer": {
+      "r": 0.917,
+      "p": 0.0
+    },
+    "corr_sub_wer": {
+      "r": 0.855,
+      "p": 0.0004
+    }
+  },
+  "bengali_char": {
+    "refs": {
+      "vowel_signs": 105557,
+      "nukta": 9428,
+      "conjuncts": 10264,
+      "indep_vowels": 37462,
+      "consonants": 173669
+    },
+    "preds": {
+      "vowel_signs": 92122,
+      "nukta": 6701,
+      "conjuncts": 6325,
+      "indep_vowels": 22779,
+      "consonants": 147135
+    },
+    "ratios": {
+      "vowel_signs": 0.873,
+      "nukta": 0.711,
+      "conjuncts": 0.616,
+      "indep_vowels": 0.608,
+      "consonants": 0.847
+    }
+  }
+}

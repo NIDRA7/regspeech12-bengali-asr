@@ -1,0 +1,18 @@
+============================================================
+Effect of Text Normalization on Mean WER at Each Stage
+============================================================
+Normalization: NFC + remove punctuation + collapse whitespace
+Test samples: 2,132    Dialects: 12
+
+Stage                           Before     After     Drop
+---------------------------------------------------------
+Zero-shot baseline               89.0%     86.8%     2.2
+Fine-tune (greedy)               82.5%     77.7%     4.8
++ Global 4-gram KenLM            78.8%     72.9%     5.9
++ Dialect-aware LM               78.6%     73.1%     5.5
+---------------------------------------------------------
+HEADLINE (dialect + norm.)                 73.1%
+
+5.5 percentage points improvement from normalization alone (no model changes)
+
+Normalization is symmetric (applied to both references and predictions), does not alter Bengali words, and is standard practice in ASR. Mean WER values are averages of per-dialect WERs across all 12 dialects.

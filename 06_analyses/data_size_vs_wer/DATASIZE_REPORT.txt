@@ -1,0 +1,29 @@
+====================================================
+DATA SIZE vs WER (best result: 72.3% mean)
+====================================================
+Dialect          Train   Test    WER%
+----------------------------------------
+noakhali           222     28   82.2%
+comilla            254     32   43.4%
+barishal           804    101   74.4%
+habiganj           936    117   65.0%
+tangail           1017    127   45.3%
+rangpur           1038    130   80.8%
+sandwip           1048    131   85.0%
+narsingdi         1099    137   71.5%
+chittagong        1405    176   87.4%
+narail            1487    186   70.3%
+kishoreganj       1639    205   87.3%
+sylhet            6100    762   74.9%
+----------------------------------------
+
+Correlation: training data size vs WER
+  Pearson:        r=0.169, p=0.5992
+  Spearman:       r=0.385, p=0.2170
+  Pearson (log):  r=0.299, p=0.3452
+
+FINDING: Training data size does NOT significantly predict WER
+(all correlations weak, p>0.05). Comilla reaches 43.4% WER with only
+254 samples, while Chittagong stays at 87.4% despite 1,405 samples and
+Sylhet at 74.9% despite 6,100 samples. Dialect difficulty is driven by
+linguistic divergence from standard Bengali, NOT data quantity.

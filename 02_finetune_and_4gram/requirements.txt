@@ -1,0 +1,11 @@
+transformers>=4.40
+librosa>=0.10
+jiwer>=3.0
+pandas>=2.0
+tqdm
+openpyxl
+accelerate
+datasets
+pyctcdecode
+numpy<2
+# KenLM: pip install https://github.com/kpu/kenlm/archive/master.zip

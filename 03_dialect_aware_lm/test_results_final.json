@@ -1,0 +1,89 @@
+{
+  "method": "Fine-tuned IndicWav2Vec + Dialect-aware 4-gram KenLMs (alpha/beta tuned on validation per dialect)",
+  "model": "ai4bharat/indicwav2vec_v1_bengali (fine-tuned)",
+  "language_model": {
+    "type": "12 per-dialect KenLM 4-grams (compared with global 4-gram)",
+    "training": "in-domain RegSpeech12 transcripts, upweighted per dialect",
+    "tuning": "alpha/beta grid-searched on validation set per dialect"
+  },
+  "test_set_samples": 2132,
+  "num_dialects": 12,
+  "per_dialect": {
+    "barishal": {
+      "n": 101,
+      "wer_greedy": 83.8,
+      "wer_global_lm": 79.4,
+      "wer_dialect_lm": 78.0
+    },
+    "chittagong": {
+      "n": 176,
+      "wer_greedy": 93.6,
+      "wer_global_lm": 90.8,
+      "wer_dialect_lm": 89.3
+    },
+    "comilla": {
+      "n": 32,
+      "wer_greedy": 56.7,
+      "wer_global_lm": 54.7,
+      "wer_dialect_lm": 62.2
+    },
+    "habiganj": {
+      "n": 117,
+      "wer_greedy": 84.1,
+      "wer_global_lm": 75.9,
+      "wer_dialect_lm": 75.0
+    },
+    "kishoreganj": {
+      "n": 205,
+      "wer_greedy": 94.7,
+      "wer_global_lm": 91.0,
+      "wer_dialect_lm": 91.8
+    },
+    "narail": {
+      "n": 186,
+      "wer_greedy": 79.8,
+      "wer_global_lm": 76.7,
+      "wer_dialect_lm": 75.3
+    },
+    "narsingdi": {
+      "n": 137,
+      "wer_greedy": 82.4,
+      "wer_global_lm": 79.9,
+      "wer_dialect_lm": 79.2
+    },
+    "noakhali": {
+      "n": 28,
+      "wer_greedy": 91.1,
+      "wer_global_lm": 88.4,
+      "wer_dialect_lm": 88.4
+    },
+    "rangpur": {
+      "n": 130,
+      "wer_greedy": 89.1,
+      "wer_global_lm": 86.4,
+      "wer_dialect_lm": 85.3
+    },
+    "sandwip": {
+      "n": 131,
+      "wer_greedy": 91.3,
+      "wer_global_lm": 88.1,
+      "wer_dialect_lm": 86.1
+    },
+    "sylhet": {
+      "n": 762,
+      "wer_greedy": 88.7,
+      "wer_global_lm": 80.1,
+      "wer_dialect_lm": 79.0
+    },
+    "tangail": {
+      "n": 127,
+      "wer_greedy": 55.0,
+      "wer_global_lm": 54.1,
+      "wer_dialect_lm": 54.2
+    }
+  },
+  "note": "Stage 4 comparison: per-dialect KenLMs vs the global KenLM. Global LM (default alpha=0.5, beta=1.5, same as folder 02): 78.8% mean WER. Per-dialect KenLMs (alpha/beta tuned per dialect on validation): 78.6% mean WER. The dialect-aware approach gave a marginal improvement of 0.2 percentage points over the default global LM. Per-dialect LM was selected on the validation set; selection on validation rather than test is the correct experimental procedure. Mean WER values are averages of per-dialect WERs across all 12 dialects.",
+  "mean_wer_greedy": 82.5,
+  "mean_wer_global_lm": 78.8,
+  "mean_wer_dialect_aware": 78.6
+}

@@ -1,0 +1,46 @@
+WORD-LEVEL & BENGALI-SPECIFIC ERROR ANALYSIS
+Generated: 2026-05-21 11:42
+Best result: Fine-tune + 5-gram LM + normalization | 2,132 test samples
+
+========================================================
+1. WORD-LEVEL ERROR BREAKDOWN (Substitution/Insertion/Deletion)
+========================================================
+Dialect            N     Sub%     Ins%     Del%     WER%
+--------------------------------------------------------
+comilla           32    32.6%     3.0%     7.9%    43.4%
+tangail          127    32.0%     3.0%    10.2%    45.3%
+habiganj         117    43.5%     7.1%    14.5%    65.0%
+narail           186    45.5%     2.8%    22.1%    70.3%
+narsingdi        137    43.7%     1.5%    26.3%    71.5%
+barishal         101    45.0%     2.3%    27.0%    74.4%
+sylhet           762    48.7%     8.3%    17.9%    74.9%
+rangpur          130    47.7%     1.4%    31.8%    80.8%
+noakhali          28    42.2%     1.3%    38.7%    82.2%
+sandwip          131    45.0%     0.8%    39.2%    85.0%
+kishoreganj      205    43.9%     1.1%    42.2%    87.3%
+chittagong       176    50.3%     0.9%    36.2%    87.4%
+--------------------------------------------------------
+MEAN                    43.3%     2.8%    26.2%    72.3%
+STD                      5.7      2.4     11.8     14.8
+
+Of all errors: 61.3% substitutions, 5.9% insertions, 32.9% deletions
+
+Correlation with per-dialect WER:
+  Deletions vs WER:     r=0.917, p=0.0000
+  Substitutions vs WER: r=0.855, p=0.0004
+
+========================================================
+2. BENGALI-SPECIFIC CHARACTER ERROR PATTERNS
+========================================================
+Category             In Refs  In Preds  Pred/Ref
+------------------------------------------------
+consonants            173669    147135     0.847
+vowel_signs           105557     92122     0.873
+conjuncts              10264      6325     0.616
+nukta                   9428      6701     0.711
+indep_vowels           37462     22779     0.608
+
+Ratio < 1.0 = model under-produces that category.
+Key finding: conjuncts (0.616) and independent vowels (0.608) are
+most under-produced - the model drops ~40% of complex Bengali characters,
+while simple consonants (0.847) and vowel signs (0.873) are better retained.

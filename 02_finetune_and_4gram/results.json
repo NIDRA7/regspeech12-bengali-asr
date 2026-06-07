@@ -1,0 +1,79 @@
+{
+  "method": "Fine-tuned IndicWav2Vec on RegSpeech12, + Global 4-gram KenLM rescoring",
+  "model": "ai4bharat/indicwav2vec_v1_bengali (fine-tuned)",
+  "language_model": {
+    "type": "KenLM 4-gram",
+    "training_corpus": "in-domain RegSpeech12 transcripts",
+    "alpha": 0.5,
+    "beta": 1.5,
+    "beam_width": 100
+  },
+  "test_set_samples": 2132,
+  "num_dialects": 12,
+  "mean_wer_greedy": 82.5,
+  "mean_wer_with_kenlm": 78.8,
+  "improvement_from_kenlm": 3.7,
+  "per_dialect": {
+    "tangail": {
+      "n": 127,
+      "wer_greedy": 55.0,
+      "wer_with_kenlm": 54.1
+    },
+    "comilla": {
+      "n": 32,
+      "wer_greedy": 56.7,
+      "wer_with_kenlm": 54.7
+    },
+    "narail": {
+      "n": 186,
+      "wer_greedy": 79.8,
+      "wer_with_kenlm": 76.7
+    },
+    "narsingdi": {
+      "n": 137,
+      "wer_greedy": 82.4,
+      "wer_with_kenlm": 79.9
+    },
+    "barishal": {
+      "n": 101,
+      "wer_greedy": 83.8,
+      "wer_with_kenlm": 79.4
+    },
+    "habiganj": {
+      "n": 117,
+      "wer_greedy": 84.1,
+      "wer_with_kenlm": 75.9
+    },
+    "sylhet": {
+      "n": 762,
+      "wer_greedy": 88.7,
+      "wer_with_kenlm": 80.1
+    },
+    "rangpur": {
+      "n": 130,
+      "wer_greedy": 89.1,
+      "wer_with_kenlm": 86.4
+    },
+    "noakhali": {
+      "n": 28,
+      "wer_greedy": 91.1,
+      "wer_with_kenlm": 88.4
+    },
+    "sandwip": {
+      "n": 131,
+      "wer_greedy": 91.3,
+      "wer_with_kenlm": 88.1
+    },
+    "chittagong": {
+      "n": 176,
+      "wer_greedy": 93.6,
+      "wer_with_kenlm": 90.8
+    },
+    "kishoreganj": {
+      "n": 205,
+      "wer_greedy": 94.7,
+      "wer_with_kenlm": 91.0
+    }
+  },
+  "note": "Mean WER values are averages of per-dialect WERs across all 12 dialects."
+}

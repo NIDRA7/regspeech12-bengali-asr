@@ -1,0 +1,158 @@
+{
+  "barishal": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 79.67592592592592
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 77.08333333333334
+    },
+    "winner": "dialect"
+  },
+  "chittagong": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "wer": 89.34341698178068
+    },
+    "dialect": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 86.6620831900997
+    },
+    "winner": "dialect"
+  },
+  "comilla": {
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 66.289592760181
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 63.27300150829562
+    },
+    "winner": "dialect"
+  },
+  "habiganj": {
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 72.57785467128028
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 70.15570934256056
+    },
+    "winner": "dialect"
+  },
+  "kishoreganj": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 90.37424674912782
+    },
+    "dialect": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 89.62892483349191
+    },
+    "winner": "dialect"
+  },
+  "narail": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 76.25887924230466
+    },
+    "dialect": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 74.08050513022889
+    },
+    "winner": "dialect"
+  },
+  "narsingdi": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 67.56890576002641
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 65.09324971117346
+    },
+    "winner": "dialect"
+  },
+  "noakhali": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 85.11749347258485
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "wer": 82.24543080939948
+    },
+    "winner": "dialect"
+  },
+  "rangpur": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 69.58663148636764
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 68.05628847845206
+    },
+    "winner": "dialect"
+  },
+  "sandwip": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 80.30384271671134
+    },
+    "dialect": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 78.26630920464702
+    },
+    "winner": "dialect"
+  },
+  "sylhet": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "wer": 79.96672919689945
+    },
+    "dialect": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "wer": 78.9827628924362
+    },
+    "winner": "dialect"
+  },
+  "tangail": {
+    "global": {
+      "alpha": 0.5,
+      "beta": 2.0,
+      "wer": 59.978787343114725
+    },
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "wer": 58.21106593600849
+    },
+    "winner": "dialect"
+  }
+}

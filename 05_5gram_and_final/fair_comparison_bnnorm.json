@@ -1,0 +1,33 @@
+{
+  "mean_wer": 72.2,
+  "mean_cer": 41.3,
+  "wer_per_dialect": {
+    "barishal": 74.4,
+    "chittagong": 87.3,
+    "comilla": 43.1,
+    "habiganj": 64.9,
+    "kishoreganj": 87.3,
+    "narail": 70.3,
+    "narsingdi": 71.5,
+    "noakhali": 82.0,
+    "rangpur": 80.8,
+    "sandwip": 85.0,
+    "sylhet": 74.9,
+    "tangail": 45.2
+  },
+  "cer_per_dialect": {
+    "barishal": 43.8,
+    "chittagong": 52.8,
+    "comilla": 16.4,
+    "habiganj": 31.1,
+    "kishoreganj": 58.8,
+    "narail": 38.0,
+    "narsingdi": 38.0,
+    "noakhali": 53.9,
+    "rangpur": 48.2,
+    "sandwip": 54.2,
+    "sylhet": 43.2,
+    "tangail": 17.3
+  },
+  "normalizer": "BnUnicodeNormalizer (matching BRDialect)"
+}

@@ -1,0 +1,14 @@
+Dialect,Before_WER,After_WER,Drop
+tangail,54.2,46.7,7.5
+comilla,62.2,54.3,7.9
+habiganj,75.0,64.9,10.1
+narail,75.3,69.7,5.6
+narsingdi,79.2,71.6,7.6
+sylhet,79.0,73.9,5.1
+barishal,78.0,74.0,4.0
+rangpur,85.3,79.7,5.6
+sandwip,86.1,83.4,2.7
+noakhali,88.4,84.9,3.5
+chittagong,89.3,86.2,3.1
+kishoreganj,91.8,88.5,3.3
+MEAN WER,78.6,73.1,5.5

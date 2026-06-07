@@ -1,0 +1,26 @@
+==================================================
+Zero-Shot Baseline (RegSpeech12 test set)
+==================================================
+Model:    ai4bharat/indicwav2vec_v1_bengali
+Method:   Zero-shot baseline IndicWav2Vec, greedy CTC decoding
+Samples:  2132
+Dialects: 12
+
+Dialect            N       WER
+------------------------------
+tangail          127     64.4%
+comilla           32     65.0%
+narail           186     88.8%
+habiganj         117     89.3%
+barishal         101     91.7%
+narsingdi        137     91.7%
+sylhet           762     92.5%
+rangpur          130     95.1%
+kishoreganj      205     96.3%
+chittagong       176     97.7%
+sandwip          131     97.7%
+noakhali          28     98.0%
+------------------------------
+Mean WER                 89.0%
+
+Mean WER is the average of per-dialect WERs across all 12 dialects.

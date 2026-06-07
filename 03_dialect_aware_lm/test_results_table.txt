@@ -1,0 +1,26 @@
+============================================================
+Fine-Tuned IndicWav2Vec + Dialect-Aware KenLMs (RegSpeech12)
+============================================================
+Model:    ai4bharat/indicwav2vec_v1_bengali (fine-tuned)
+LMs:      Global 4-gram + 12 per-dialect 4-gram KenLMs
+Samples:  2132
+Dialects: 12
+
+Dialect           N    Greedy   Global LM  Dialect LM
+-----------------------------------------------------
+tangail         127     55.0%       54.1%       54.2%
+comilla          32     56.7%       54.7%       62.2%
+narail          186     79.8%       76.7%       75.3%
+narsingdi       137     82.4%       79.9%       79.2%
+barishal        101     83.8%       79.4%       78.0%
+habiganj        117     84.1%       75.9%       75.0%
+sylhet          762     88.7%       80.1%       79.0%
+rangpur         130     89.1%       86.4%       85.3%
+noakhali         28     91.1%       88.4%       88.4%
+sandwip         131     91.3%       88.1%       86.1%
+chittagong      176     93.6%       90.8%       89.3%
+kishoreganj     205     94.7%       91.0%       91.8%
+-----------------------------------------------------
+Mean WER                82.5%       78.8%       78.6%
+
+Stage 4 comparison: per-dialect KenLMs vs the global KenLM. Global LM (default alpha=0.5, beta=1.5, same as folder 02): 78.8% mean WER. Per-dialect KenLMs (alpha/beta tuned per dialect on validation): 78.6% mean WER. The dialect-aware approach gave a marginal improvement of 0.2 percentage points over the default global LM. Per-dialect LM was selected on the validation set; selection on validation rather than test is the correct experimental procedure. Mean WER values are averages of per-dialect WERs across all 12 dialects.

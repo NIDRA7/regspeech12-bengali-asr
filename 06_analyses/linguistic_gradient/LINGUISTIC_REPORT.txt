@@ -1,0 +1,22 @@
+============================================================
+LINGUISTIC DIFFICULTY ANALYSIS
+============================================================
+Groupings based on Bengali dialectology (CITE A SOURCE IN PAPER).
+
+Group                                               WER      CER
+----------------------------------------------------------------
+Rarhi / Central                                   57.8%    28.1%
+Bangali / East-Central                            63.6%    32.8%
+Sylheti                                           74.9%    43.7%
+Kamta / Rangpuri                                  80.8%    48.6%
+Chittagonian                                      84.9%    54.2%
+Other (kishoreganj, classification uncertain      87.3%    59.2%
+----------------------------------------------------------------
+
+KEY FINDING: WER rises monotonically with linguistic distance from
+Standard Bengali. Rarhi/Central (closest) ~58%; Chittagonian (most
+divergent, often considered a separate language) ~85%. This linguistic
+gradient - NOT training data size - explains dialect difficulty.
+
+CONNECTS TO: data-size analysis (size does not predict WER) and error
+analysis (hard dialects fail by deletion and dropped complex characters).

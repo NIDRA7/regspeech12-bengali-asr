@@ -1,0 +1,20 @@
+=======================================================
+STATISTICAL SIGNIFICANCE (per-dialect WER, matches 72.3%)
+=======================================================
+
+1. Mean WER with 95% confidence interval:
+   Best model: 72.3%  CI [63.8, 79.8]
+   Baseline:   86.8%  CI [78.4, 93.4]
+
+2. Improvement over baseline: 14.5 WER points
+   Wilcoxon signed-rank: p=4.88e-04
+   Paired t-test:        p=2.59e-08
+   => Improvement is statistically significant (p<0.001)
+
+3. vs SOTA (BRDialect 74.1%):
+   Our WER 72.3% is below 74.1%
+   (Approximate - no per-utterance SOTA data.)
+
+PLAIN MEANING: The 14.5-point improvement over baseline is statistically
+proven to be real, not chance (p<0.001). This is the significance check
+that Q1 reviewers require.

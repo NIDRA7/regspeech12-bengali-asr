@@ -1,0 +1,90 @@
+{
+  "method": "Standard text normalization applied to predictions and references at each pipeline stage",
+  "normalization_steps": [
+    "Unicode NFC normalization (canonical form for Bengali)",
+    "Remove Bengali and English punctuation",
+    "Collapse multiple whitespace into single space",
+    "Strip leading/trailing whitespace"
+  ],
+  "applied_to": "predictions and references symmetrically; no dialect-to-standard lexical mapping",
+  "test_set_samples": 2132,
+  "num_dialects": 12,
+  "stages": {
+    "zero_shot_baseline": {
+      "before_norm": 89.0,
+      "after_norm": 86.8,
+      "drop": 2.2
+    },
+    "fine_tune_greedy": {
+      "before_norm": 82.5,
+      "after_norm": 77.7,
+      "drop": 4.8
+    },
+    "global_4gram_lm": {
+      "before_norm": 78.8,
+      "after_norm": 72.9,
+      "drop": 5.9
+    },
+    "dialect_aware_lm": {
+      "before_norm": 78.6,
+      "after_norm": 73.1,
+      "drop": 5.5
+    }
+  },
+  "headline": {
+    "stage": "Dialect-aware LM + normalization",
+    "mean_wer": 73.1,
+    "note": "5.5 percentage points improvement from normalization alone (no model changes)"
+  },
+  "per_dialect_dialect_lm_normalized": {
+    "barishal": {
+      "before": 78.0,
+      "after": 74.0
+    },
+    "chittagong": {
+      "before": 89.3,
+      "after": 86.2
+    },
+    "comilla": {
+      "before": 62.2,
+      "after": 54.3
+    },
+    "habiganj": {
+      "before": 75.0,
+      "after": 64.9
+    },
+    "kishoreganj": {
+      "before": 91.8,
+      "after": 88.5
+    },
+    "narail": {
+      "before": 75.3,
+      "after": 69.7
+    },
+    "narsingdi": {
+      "before": 79.2,
+      "after": 71.6
+    },
+    "noakhali": {
+      "before": 88.4,
+      "after": 84.9
+    },
+    "rangpur": {
+      "before": 85.3,
+      "after": 79.7
+    },
+    "sandwip": {
+      "before": 86.1,
+      "after": 83.4
+    },
+    "sylhet": {
+      "before": 79.0,
+      "after": 73.9
+    },
+    "tangail": {
+      "before": 54.2,
+      "after": 46.7
+    }
+  },
+  "note": "Normalization is symmetric (applied to both references and predictions), does not alter Bengali words, and is standard practice in ASR. Mean WER values are averages of per-dialect WERs across all 12 dialects."
+}
