@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large model artifacts
+*.safetensors
+*.bin
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Audio and large data
+*.wav
+*.mp3
+kenlm_training_corpus.txt
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
