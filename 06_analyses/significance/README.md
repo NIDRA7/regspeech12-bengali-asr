@@ -2,11 +2,12 @@
 
 ## Key Findings
 
-- Best model: 72.3% Mean WER, 95% CI [63.8, 79.8]
+-  Best model: 72.2% Mean WER, 95% CI [63.8, 79.8]
+- Improvement: 14.6 WER points over baseline
 - Baseline: 86.8% Mean WER, 95% CI [78.4, 93.4]
 - Improvement: 14.5 WER points over baseline
 - Statistically significant: Wilcoxon p<0.001, paired t-test p<0.001
-- vs SOTA (BRDialect 74.1%): our 72.3% is lower
+- vs SOTA (BRDialect 74.1%): our 72.2% is lower
 
 In plain terms: the improvement over the baseline is proven to be real, not luck.
 
