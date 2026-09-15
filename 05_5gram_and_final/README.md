@@ -5,8 +5,13 @@ Fine-tuned IndicWav2Vec + 5-gram KenLM + text normalization on RegSpeech12
 
 ## Headline Result
 
-5-gram KenLM (beam 200) + normalization = **72.3% Mean WER**
-(macro average of 12 per-dialect WERs)
+5-gram KenLM (beam 200) + normalization = **72.3% Mean WER** (macro average of 12 per-dialect WERs)
+
+## Matched-norm comparison
+
+`fair_comparison_bnnorm.json` — the same 5-gram predictions re-scored with
+BnUnicodeNormalizer (matching prior work's evaluation convention): 72.2% Mean WER,
+41.3% Mean CER. This is the paper's reported final headline number.
 
 ## Verify fastest (~5 sec, no GPU)
 
@@ -21,6 +26,7 @@ Expected: MEAN WER 72.3%
     pip install https://github.com/kpu/kenlm/archive/master.zip
     python 01_build_5gram_kenlm.py
     python 02_decode_5gram_and_normalize.py
+
 
 ## Settings
 
@@ -46,5 +52,7 @@ DATA:
 - test_predictions_5gram_full.csv - all predictions (raw + normalized)
 - per_dialect_5gram.csv - per-dialect table
 - results_5gram.json - summary
+- fair_comparison_bnnorm.json - same predictions, BnUnicodeNormalizer-based scoring (72.2%/41.3%)
+
 
 Generated: 2026-05-20 20:15
