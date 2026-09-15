@@ -15,5 +15,5 @@ diverge, with dropped and substituted words - making the error analysis tangible
 - qualitative_examples.txt - formatted examples (ready to read)
 - qualitative_examples.csv - same examples in table form (for the paper)
 
-Source: best-result predictions (5-gram + normalization, 72.3% mean WER).
+Source: final BnUnicodeNormalizer-based predictions (72.2% mean WER).
 Generated: 2026-05-23 11:04
