@@ -1,6 +1,6 @@
 WORD-LEVEL & BENGALI-SPECIFIC ERROR ANALYSIS
 Generated: 2026-05-21 11:42
-Best result: Fine-tune + 5-gram LM + normalization | 2,132 test samples
+Final BnUnicodeNormalizer-based scoring setting | 2,132 test samples
 
 ========================================================
 1. WORD-LEVEL ERROR BREAKDOWN (Substitution/Insertion/Deletion)
