@@ -33,5 +33,5 @@ Generated: 2026-05-23 10:23
 
 - train.xlsx: from the RegSpeech12 dataset folder (not duplicated here).
   Place it in this folder or adjust the path in datasize_analysis.py to run.
-- Per-dialect WER values: from the best-result evaluation (5-gram + normalization,
-  72.3% mean) in the '5gm+normalization-72wer' folder.
+-  Per-dialect WER values: from the final BnUnicodeNormalizer-based evaluation
+(72.2% mean) in the '5gm+normalization-72wer' folder.
