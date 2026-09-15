@@ -15,14 +15,12 @@ WER rises monotonically with linguistic distance from Standard Bengali:
 
 This linguistic gradient - NOT data size - explains dialect difficulty.
 
-## IMPORTANT - Citation Required
+## Dialect Groupings
 
-The dialect groupings are based on Bengali dialectology and MUST be cited to an
-authoritative source (e.g., Grierson's Linguistic Survey of India, or a modern
-Bengali dialectology reference) before publication. Verify group membership against
-that source and adjust if needed. The WER/CER numbers are from this project's
-best result; the groupings are interpretive and need a citation.
-
+The dialect groupings follow Hassan et al. 2025 (RegSpeech12) and Masica 1991
+(The Indo-Aryan Languages), used here as an exploratory qualitative grouping
+(see paper Section 4.8) rather than a formal linguistic-distance measure.
+WER/CER values are from the final BnUnicodeNormalizer-based setting (72.2% mean).
 ## Run
 
     pip install -r requirements.txt
