@@ -3,10 +3,8 @@ linguistic_analysis.py
 Groups the 12 dialects by Bengali dialect family and shows WER/CER rises with
 linguistic distance from Standard Bengali.
 
-IMPORTANT: The dialect groupings are based on Bengali dialectology and MUST be
-cited to an authoritative source (e.g., Grierson Linguistic Survey of India, or
-a modern Bengali dialectology reference) before publication. Verify group
-membership against that source.
+Dialect groupings follow Hassan et al. 2025 (RegSpeech12) and Masica 1991
+(The Indo-Aryan Languages) — exploratory grouping, see paper Section 4.8.
 
 Setup: pip install "numpy<2" pandas
 """
