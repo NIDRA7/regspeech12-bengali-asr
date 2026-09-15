@@ -1,5 +1,5 @@
 {
-  "note": "per-dialect WER from best result (5-gram + normalization, 72.3% mean)",
+  "note": "per-dialect WER from final BnUnicodeNormalizer setting (72.2% mean)",
   "per_dialect": [
     {
       "dialect": "comilla",
