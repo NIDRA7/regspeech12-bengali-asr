@@ -1,5 +1,5 @@
 ====================================================
-DATA SIZE vs WER (best result: 72.3% mean)
+DATA SIZE vs WER (final BnUnicodeNormalizer setting, mean WER 72.2%)
 ====================================================
 Dialect          Train   Test    WER%
 ----------------------------------------
