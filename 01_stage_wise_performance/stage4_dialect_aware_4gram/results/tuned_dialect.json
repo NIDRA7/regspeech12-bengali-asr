@@ -1,0 +1,182 @@
+{
+  "barishal": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 100,
+      "valid_wer": 77.41335194231218
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 77.15747848336822
+    },
+    "winner": "global"
+  },
+  "chittagong": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 50,
+      "valid_wer": 87.94288736118456
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 90.49885422175215
+    },
+    "winner": "dialect"
+  },
+  "comilla": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 200,
+      "valid_wer": 65.00389711613406
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 61.418550272798136
+    },
+    "winner": "global"
+  },
+  "habiganj": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 66.8848167539267
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 66.16492146596859
+    },
+    "winner": "global"
+  },
+  "kishoreganj": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 84.83443708609272
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 85.36423841059603
+    },
+    "winner": "dialect"
+  },
+  "narail": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 71.10302263016301
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 72.98623199873397
+    },
+    "winner": "dialect"
+  },
+  "narsingdi": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 100,
+      "valid_wer": 64.77905073649754
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 63.92798690671031
+    },
+    "winner": "global"
+  },
+  "noakhali": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 200,
+      "valid_wer": 81.24156545209176
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 80.97165991902834
+    },
+    "winner": "global"
+  },
+  "rangpur": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 200,
+      "valid_wer": 65.7052409426662
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 65.03693281744636
+    },
+    "winner": "global"
+  },
+  "sandwip": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 200,
+      "valid_wer": 78.72815172926738
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 79.91818519895872
+    },
+    "winner": "dialect"
+  },
+  "sylhet": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 100,
+      "valid_wer": 78.23759063022867
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 80.0334634690463
+    },
+    "winner": "dialect"
+  },
+  "tangail": {
+    "dialect": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "beam": 200,
+      "valid_wer": 57.341304730086165
+    },
+    "global": {
+      "alpha": 0.3,
+      "beta": 0.0,
+      "beam": 200,
+      "valid_wer": 56.075259363460525
+    },
+    "winner": "global"
+  }
+}

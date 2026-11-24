@@ -1,0 +1,7 @@
+{
+  "lm": "global4_clean5x",
+  "alpha": 0.3,
+  "beta": 0.0,
+  "beam": 200,
+  "valid_wer": 75.29830357710146
+}
