@@ -1,0 +1,146 @@
+[
+ {
+  "lm": "Global 4-gram",
+  "beam": 100,
+  "norm": "raw",
+  "macro_wer": 78.30963387946949,
+  "macro_cer": 43.92402158260982,
+  "micro_wer": 80.16383850204798
+ },
+ {
+  "lm": "Global 4-gram",
+  "beam": 100,
+  "norm": "standard",
+  "macro_wer": 72.27955564252926,
+  "macro_cer": 41.66541221681748,
+  "micro_wer": 74.57973590655155
+ },
+ {
+  "lm": "Global 4-gram",
+  "beam": 100,
+  "norm": "bnunicode",
+  "macro_wer": 72.16235591483054,
+  "macro_cer": 41.15892412859151,
+  "micro_wer": 74.50736414423565
+ },
+ {
+  "lm": "Global 4-gram",
+  "beam": 200,
+  "norm": "raw",
+  "macro_wer": 78.20273342040876,
+  "macro_cer": 43.1191162518872,
+  "micro_wer": 80.1650834754678
+ },
+ {
+  "lm": "Global 4-gram",
+  "beam": 200,
+  "norm": "standard",
+  "macro_wer": 71.98820592756675,
+  "macro_cer": 40.86149192271835,
+  "micro_wer": 74.42483494159472
+ },
+ {
+  "lm": "Global 4-gram",
+  "beam": 200,
+  "norm": "bnunicode",
+  "macro_wer": 71.8756837200074,
+  "macro_cer": 40.34650461245034,
+  "micro_wer": 74.35754189944134
+ },
+ {
+  "lm": "Dialect-aware 4-gram",
+  "beam": 100,
+  "norm": "raw",
+  "macro_wer": 78.77989805156315,
+  "macro_cer": 43.76906766232321,
+  "micro_wer": 79.76420203428657
+ },
+ {
+  "lm": "Dialect-aware 4-gram",
+  "beam": 100,
+  "norm": "standard",
+  "macro_wer": 73.12470629319115,
+  "macro_cer": 41.64336583346668,
+  "micro_wer": 74.2953275774505
+ },
+ {
+  "lm": "Dialect-aware 4-gram",
+  "beam": 100,
+  "norm": "bnunicode",
+  "macro_wer": 72.78120142345162,
+  "macro_cer": 40.96970022564935,
+  "micro_wer": 74.11630269172169
+ },
+ {
+  "lm": "Dialect-aware 4-gram",
+  "beam": 200,
+  "norm": "raw",
+  "macro_wer": 78.72098061266632,
+  "macro_cer": 43.05942171224376,
+  "micro_wer": 79.67954384173898
+ },
+ {
+  "lm": "Dialect-aware 4-gram",
+  "beam": 200,
+  "norm": "standard",
+  "macro_wer": 72.87546852340758,
+  "macro_cer": 40.94415759042216,
+  "micro_wer": 74.06932453021838
+ },
+ {
+  "lm": "Dialect-aware 4-gram",
+  "beam": 200,
+  "norm": "bnunicode",
+  "macro_wer": 72.5723929029131,
+  "macro_cer": 40.26940376974343,
+  "micro_wer": 73.91188420518029
+ },
+ {
+  "lm": "Global 5-gram",
+  "beam": 100,
+  "norm": "raw",
+  "macro_wer": 78.44526861310341,
+  "macro_cer": 44.15799354806588,
+  "micro_wer": 80.22608717303885
+ },
+ {
+  "lm": "Global 5-gram",
+  "beam": 100,
+  "norm": "standard",
+  "macro_wer": 72.37425635096217,
+  "macro_cer": 41.892621321214264,
+  "micro_wer": 74.64448958862366
+ },
+ {
+  "lm": "Global 5-gram",
+  "beam": 100,
+  "norm": "bnunicode",
+  "macro_wer": 72.26591734325324,
+  "macro_cer": 41.40378235910697,
+  "micro_wer": 74.56830878618588
+ },
+ {
+  "lm": "Global 5-gram",
+  "beam": 200,
+  "norm": "raw",
+  "macro_wer": 78.14055440124754,
+  "macro_cer": 43.32530689764931,
+  "micro_wer": 80.18375807676506
+ },
+ {
+  "lm": "Global 5-gram",
+  "beam": 200,
+  "norm": "standard",
+  "macro_wer": 71.91683437521853,
+  "macro_cer": 41.060940281248755,
+  "micro_wer": 74.45276790248857
+ },
+ {
+  "lm": "Global 5-gram",
+  "beam": 200,
+  "norm": "bnunicode",
+  "macro_wer": 71.79428804287745,
+  "macro_cer": 40.54281267345865,
+  "micro_wer": 74.38293550025394
+ }
+]
